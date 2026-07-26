@@ -8,14 +8,14 @@
     aspect-ratio: 1 / 1;
 }
 
-/*
-
 #Board-Container > div
 {
     aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
 }
-
-*/
 
 .Light-Square
 {
@@ -25,4 +25,12 @@
 .Dark-Square
 {
     background-color: lightsteelblue;
+}
+
+svg
+{
+    /* padding: 10px; */
+    aspect-ratio: 1 / 1;
+    height: 100%;
+    width: 100%;
 }
