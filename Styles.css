@@ -1,0 +1,28 @@
+#Board-Container
+{
+    /* height: 500px; */
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    /* grid-auto-rows: 100px; */
+    aspect-ratio: 1 / 1;
+}
+
+/*
+
+#Board-Container > div
+{
+    aspect-ratio: 1 / 1;
+}
+
+*/
+
+.Light-Square
+{
+    background-color: white;
+}
+
+.Dark-Square
+{
+    background-color: lightsteelblue;
+}
